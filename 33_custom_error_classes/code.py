@@ -21,7 +21,7 @@ python101.read(50)  # Whaaaat
 # -- Errors used to prevent things from happening --
 
 
-class TooManyPagesReadError(ValueError):
+class TooManyPagesReadError(ValueError): #you can inherit from any exception calss so you can raise the exception
     pass
 
 
