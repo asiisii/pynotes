@@ -62,5 +62,5 @@ except ZeroDivisionError:
     print(f"ERROR: {name} has no grades!")
 else:
     print("-- All student averages calculated --")
-finally:
+finally: #no matter what this will run
     print("-- End of student average calculation --")
