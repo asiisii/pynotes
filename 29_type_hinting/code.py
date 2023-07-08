@@ -41,7 +41,7 @@ class Book:
         return f"<Book {self.name}, {self.book_type}, weighing {self.weight}g>"
 
     @classmethod
-    def hardcover(cls, name: str, page_weight: int) -> "Book":
+    def hardcover(cls, name: str, page_weight: int) -> "Book": #can't say will return Book without qotation because this method is created before the class is being processed, but its the different class that you're returning then we can write it without qotation
         return cls(name, cls.TYPES[0], page_weight + 100)
 
     @classmethod
