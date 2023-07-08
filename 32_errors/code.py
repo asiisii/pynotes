@@ -37,7 +37,7 @@ try:
     average = divide(sum(grades), len(grades))
 except ZeroDivisionError:
     print("There are no grades yet in your list.")
-else:
+else: #if theres no error then only the else statement will run
     print(f"The average was {average}")
 
 
